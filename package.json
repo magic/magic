@@ -1,0 +1,85 @@
+{
+  "name": "magic",
+  "version": "2.3.5-alpha.0",
+  "author": "Wizards & Witches",
+  "homepage": "https://magic.github.io/",
+  "license": "AGPL-3.0",
+  "description": "jamstack generator. html + css + js boilerplate: ~15kb.",
+  "type": "module",
+  "engines": {
+    "node": ">=14.2.0"
+  },
+  "engineString": true,
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t -p",
+    "calls": "calls"
+  },
+  "bin": {
+    "magic": "src/bin.mjs"
+  },
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic/magic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic/magic/issues"
+  },
+  "dependencies": {
+    "@magic/core": "0.0.89"
+  },
+  "devDependencies": {
+    "@magic/format": "0.0.14",
+    "@magic/test": "0.1.53"
+  },
+  "keywords": [
+    "magic",
+    "static",
+    "page",
+    "api",
+    "generator",
+    "jamstack",
+    "lamda",
+    "hyperapp"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    },
+    {
+      "name": "philipp tiefenbacher",
+      "github": "wizard23"
+    },
+    {
+      "name": "tom peak",
+      "github": "tompeak"
+    },
+    {
+      "name": "phileas lebada",
+      "github": "norpol"
+    },
+    {
+      "name": "litto / daniela weiss",
+      "github": "mslitto"
+    },
+    {
+      "name": "michael parenti",
+      "github": "exiledsurfer"
+    },
+    {
+      "name": "daniel safar",
+      "github": "n1c3"
+    },
+    {
+      "name": "jay vaughan",
+      "github": "seclorum"
+    },
+    {
+      "name": "alexander weiss",
+      "github": "ylem235"
+    }
+  ]
+}
