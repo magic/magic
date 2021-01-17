@@ -30,7 +30,8 @@ other related github organizations:
 ## changelog
 
 ### 2.3.5-alpha.1
-import local node_modules in global install
+* import local node_modules in global install
+* update dependencies
 
 ### 2.3.5-alpha.0
 first release. npm i -g magic \o/
