@@ -28,11 +28,11 @@
     "url": "https://github.com/magic/magic/issues"
   },
   "dependencies": {
-    "@magic/core": "0.0.89"
+    "@magic/core": "0.0.101"
   },
   "devDependencies": {
-    "@magic/format": "0.0.14",
-    "@magic/test": "0.1.53"
+    "@magic/format": "0.0.20",
+    "@magic/test": "0.1.59"
   },
   "keywords": [
     "magic",
